@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ParentCardsGrid } from './Components/ParentCardsGrid';
+import { Entry } from './Components/Entry';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Entry />
   </React.StrictMode>,
   document.getElementById('root')
 );
